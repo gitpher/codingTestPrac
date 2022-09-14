@@ -1,0 +1,24 @@
+
+/** String(문자열) **/
+
+String answer = "";
+
+String을 붙이려면 '+'만 있으면 된다.
+
+0이 아닌 Integer.MIN_VALUE를 사용해서도 비교를 통해 가장 큰 값을 구할 수 있다.
+
+StringBuilder(단어).reverse().toString();으로 단어의 어순을 거꾸로 바꿀 수 있다.
+
+아래는 이해하고 필수로 외워야 한다.
+            int lt = 0, rt = s.length() - 1;
+            while (lt < rt) {
+                char tmp = c[lt];
+                c[lt] = c[rt];
+                c[rt] = tmp;
+                lt++; rt--;
+            }
+
+String.valueOf(캐릭터 배열);을 통해 'char[]' 타입을 'String' 타입으로 변환할 수 있다.
+
+
+
