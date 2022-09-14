@@ -20,5 +20,10 @@ StringBuilder(단어).reverse().toString();으로 단어의 어순을 거꾸로 
 
 String.valueOf(캐릭터 배열);을 통해 'char[]' 타입을 'String' 타입으로 변환할 수 있다.
 
-
+아래는 많이 쓰는 Charcter의 메서드
+        Character.isUpperCase();
+        Character.isLowerCase();
+        Character.toUpperCase();
+        Character.toLowerCase();
+        Character.isAlphabetic();
 
