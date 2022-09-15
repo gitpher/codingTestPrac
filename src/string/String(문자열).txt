@@ -31,7 +31,4 @@ String.valueOf(캐릭터 배열);을 통해 'char[]' 타입을 'String' 타입�
 .indexOf()
 .charAt()
 
-
-
-
 LinkedHashSet<>()은 중복을 제거하되 순서도 보장한다.
