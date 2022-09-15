@@ -27,3 +27,11 @@ String.valueOf(캐릭터 배열);을 통해 'char[]' 타입을 'String' 타입�
         Character.toLowerCase();
         Character.isAlphabetic();
 
+아래는 String 인스턴스가 사용하면 좋은 메서드다.
+.indexOf()
+.charAt()
+
+
+
+
+LinkedHashSet<>()은 중복을 제거하되 순서도 보장한다.
