@@ -27,10 +27,13 @@ String.valueOf(캐릭터 배열);을 통해 'char[]' 타입을 'String' 타입�
         Character.toLowerCase();
         Character.isAlphabetic();
 
-아래는 String 인스턴스가 사용하면 좋은 메서드다.
-.indexOf()
-.charAt()
-.isEqualsIgnoreCase()
+아래는 String 인스턴스에서 사용하는 메서드다. (String은 단순 ==로 비교가 되지 않는다. .equals();를 써야 한다.)
+.indexOf();
+.charAt();
+.isEqualsIgnoreCase();
+.replace();
+.replaceAll();
+.equals();
 
 LinkedHashSet<>()은 중복을 제거하되 순서도 보장한다.
 
@@ -41,4 +44,4 @@ for (int i=0; i<len/2; i++) {
 }
 return "YES";
 
-
+정규표현식을 배워야 한다.
