@@ -30,7 +30,7 @@ String.valueOf(캐릭터 배열);을 통해 'char[]' 타입을 'String' 타입�
 
 아래는 String 인스턴스에서 사용하는 메서드다. (String은 단순 ==로 비교가 되지 않는다. .equals();를 써야 한다.)
 .indexOf();
-.charAt();
+.charAt(); : for문 안에 .charAt(i);를 통해 알고리즘을 만들 수 있음.
 .isEqualsIgnoreCase();
 .replace();
 .replaceAll();
@@ -48,3 +48,7 @@ return "YES";
 정규표현식을 배워야 한다.
 
 Integer.parseInt()
+
+
+Math.min( , );이나 Math.max( , );를 통해 숫자 크기 비교 가능
+
